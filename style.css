@@ -1,7 +1,7 @@
   body {
       font-family: Arial, sans-serif;
       padding: 20px;
-      background-color: rgb(205, 196, 187);
+      background-color: rgb(247, 220, 193);
   }
     select {
       margin: 10px auto;
@@ -27,3 +27,9 @@
       text-align: left;
     }
   
+/* 
+This file handles the styling of the webpage, including:
+- Body background color and font settings.
+- The layout and design of the dropdowns and table, ensuring they are visually appealing and centered.
+- Borders and padding for table rows and cells to improve readability.
+*/
