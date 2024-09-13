@@ -20,11 +20,17 @@
     <option value=""> Select Department </option>
   </select>
 
+
+  <label for="specializationSelect"></label>
+  <select id="specializationSelect" disabled>
+    <option value="">Select Specialization</option>
+  </select>
+
   <!-- Table for displaying specializations -->
   <table id="specializationsTable" style="display: none;">
     <thead>
       <tr>
-        <th>Specialization Name</th>
+        <th>#</th> <!-- Added this new column for numbering -->
         <th>Colleague Name</th>
         <th>Email</th>
         <th>Age</th>
@@ -36,7 +42,7 @@
 </body>
 </html>
 
-<!-- his file defines the structure of the webpage. It includes:
+<!-- this file defines the structure of the webpage. It includes:
  Dropdowns to select a company and its department.
  A table to display information about the specializations and colleagues once a department is selected.
  The script tag to link to the JavaScript file that handles dynamic content population.-->
